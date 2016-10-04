@@ -20,7 +20,8 @@ sings=($(cat sings.txt))
 case "$cho" in
 
         1)
-#########################倒计时        for i in 3 2 1
+#########################倒计时        for i
+        for i  in 3 2 1
         do
                 echo
                 echo -e -n "\b$i"
